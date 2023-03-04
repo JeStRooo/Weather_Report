@@ -3,10 +3,10 @@ import React from 'react';
 import OtherWeatherInfo from "../OtherWeatherInfo/OtherWeatherInfo";
 
 import classes from "../WeatherReport.module.scss";
-import Wind from "../../assets/Wind.svg";
-import Humidity from "../../assets/Humidity.svg";
-import Pressure from "../../assets/Pressure.svg";
-import pageNotFound from "../../assets/page-not-found.gif";
+import Wind from "../../../assets/Wind.svg";
+import Humidity from "../../../assets/Humidity.svg";
+import Pressure from "../../../assets/Pressure.svg";
+import pageNotFound from "../../../assets/page-not-found.gif";
 
 type WeatherInfoType = {
   weather: any,

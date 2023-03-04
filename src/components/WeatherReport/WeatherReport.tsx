@@ -1,15 +1,15 @@
 import React, {useEffect, FormEvent, useMemo, useState} from 'react';
 import {useDispatch, useSelector} from "react-redux";
-import {asyncGetCurrentLocation, asyncGetWeather} from "../store/action";
+import {asyncGetCurrentLocation, asyncGetWeather} from "../../store/action";
 
-import {IWeatherInfo} from "../store/actionTypes";
-import {RootState} from "../store/store";
-import {weatherStateIcons} from "../mockData/weatherStateIcons";
+import {IWeatherInfo} from "../../store/actionTypes";
+import {RootState} from "../../store/store";
+import {weatherStateIcons} from "../../mockData/weatherStateIcons";
 
 import WeatherReportMain from "./WeatherReportMain/WeatherReportMain";
 
 import classes from "./WeatherReport.module.scss";
-import searchIcon from "../assets/searchIcon.svg";
+import searchIcon from "../../assets/searchIcon.svg";
 
 
 const WeatherReport = () => {
