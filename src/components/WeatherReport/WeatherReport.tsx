@@ -6,7 +6,7 @@ import {IWeatherInfo} from "../../store/actionTypes";
 import {RootState} from "../../store/store";
 import {weatherStateIcons} from "../../mockData/weatherStateIcons";
 
-import WeatherReportMain from "./WeatherReportMain/WeatherReportMain";
+import MainWeatherInfo from "./MainWeatherInfo/MainWeatherInfo";
 
 import classes from "./WeatherReport.module.scss";
 import searchIcon from "../../assets/searchIcon.svg";
@@ -62,7 +62,7 @@ const WeatherReport = () => {
           <img src={searchIcon} alt="Search"/>
         </button>
       </form>
-      <WeatherReportMain
+      <MainWeatherInfo
           weather={weather}
           weatherInfo={weatherInfo}
           isErrorMessage={isErrorMessage}

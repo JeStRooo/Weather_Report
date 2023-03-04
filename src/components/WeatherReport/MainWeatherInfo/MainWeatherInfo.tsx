@@ -14,7 +14,7 @@ type WeatherInfoType = {
   isErrorMessage: boolean
 }
 
-const WeatherReportMain = ({weather, weatherInfo, isErrorMessage}: WeatherInfoType) => {
+const MainWeatherInfo = ({weather, weatherInfo, isErrorMessage}: WeatherInfoType) => {
   return (
     <>
       {isErrorMessage ? (
@@ -79,4 +79,4 @@ const WeatherReportMain = ({weather, weatherInfo, isErrorMessage}: WeatherInfoTy
   );
 };
 
-export default WeatherReportMain;
+export default MainWeatherInfo;
